@@ -1,15 +1,61 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Calculadora";
 }
 
-<div class="text-center">
-    <input id="Altura" name="Altura" placeholder="Altura (m)" />
-    <input id="Peso" name="Peso" placeholder="Peso (kg)" />
-    <input type="submit" onclick="myFunction()" />
-        
+<article>
+    <h1>Calculadora de IMC </h1>
+    <p>
+        IMC é o Índice adotado pela Organização Mundial de Saúde, 
+        para calcular o peso ideal de cada pessoa. 
+        A sigla significa Índice de Massa Corpórea.
+    </p>
+
+    <p>
+        Para calcular o índice divida o peso do paciente pela altura elevada ao quadrado. 
+        Quando o resultado do IMC está entre 18,5 e 24,9, o peso esta normal.</p>
+
+    <p>Quer descobrir seu IMC? Insira sua altura e seu peso nos campos abaixo.
+    
+        <b>Importante: siga os exemplos e use pontos como separadores.</b>
+    </p>
+</article>
+
+<div class="calculadora">
+    <div class="form">
+        <input id="Altura" name="Altura" placeholder="Altura ex 1.70" required/>
+        <input id="Peso" name="Peso" placeholder="Peso ex 65" required/>
+        <input type="submit" onclick="calcular()" value="Calcular"/>
+    </div>
+    <p id="p01"></p>
+    <div class="p02" ><p id="p02"></p></div>
 </div>
-<p id="p01"></p>
-<p id="p02"></p>
-<p id="p03"></p>
+
+<table>
+    <tr>
+        <th>IMC</th>
+        <th>Classificação</th>
+    </tr>
+    <tr id="abaixo">            
+        <td>Menor que 18.5</td>
+        <td>Abaixo do peso</td>
+    </tr>
+    <tr id="normal">
+        <td>Entre 18.5 e 24.9</td>
+        <td>Peso normal</td>
+    </tr>
+    <tr id="acima">
+        <td>Entre 25 e 29</td>
+        <td>Acima do peso</td>
+    </tr>
+    <tr id="obesidade">
+        <td>Entre 30 e 35</td>
+        <td>Obesidade</td>
+    </tr>
+    <tr id="morbida">
+        <td>Acima de 35</td>
+        <td>Obesidade Morbida</td>
+    </tr>
+</table>
+

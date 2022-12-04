@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\imagens\\GitHub-Mark-120px-plus.png",
+      "PackagePath": "staticwebassets\\imagens\\GitHub-Mark-120px-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\imagens\\GitHub-Mark-Light-120px-plus.png",
+      "PackagePath": "staticwebassets\\imagens\\GitHub-Mark-Light-120px-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\imagens\\Logo (1).svg",
+      "PackagePath": "staticwebassets\\imagens\\Logo (1).svg"
+    },
+    {
+      "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\imagens\\Logo.svg",
+      "PackagePath": "staticwebassets\\imagens\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\imagens\\icon.svg",
+      "PackagePath": "staticwebassets\\imagens\\icon.svg"
+    },
+    {
       "Id": "C:\\Users\\55389\\OneDrive\\Área de Trabalho\\csharp\\asp-net\\CalculoDoIMC\\CalculoDoIMC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
